@@ -5,13 +5,16 @@ import './styles/app.css';
 import './input.css'
 import './styles/typograph.scss';
 
-function App() {
-  const StyledApp = styled.div`
+const StyledApp = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1480px;
+    width: calc(100vw - 30px);
     gap: 15px;
   `
+
+function App() {
   return (
     <>
       <StyledApp>

@@ -13,6 +13,9 @@ export default {
       fontFamily:{
         Poppins: 'Poppins, sans-serif',
         RobotoMono: 'Roboto Mono, sans-serif'
+      },
+      screens:{
+        toButton: '414px'
       }
     },
   },
